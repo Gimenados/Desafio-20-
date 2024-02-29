@@ -1,0 +1,96 @@
+* {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+/* FORMULARIO */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0rem 2rem;
+    padding: 0rem;
+}
+
+.container form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#registroForm {
+    display: flex;
+    flex-direction: column !important;
+    margin: 2rem;
+}
+
+input {
+    border: 1px solid white;
+    border-bottom: 1px solid black !important;
+}
+
+button {
+    padding: 0.8rem;
+    background-color: black;
+    color: aliceblue;
+    width: 235px;
+}
+
+
+/* TABLA */
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+
+#tablaUsuarios {
+     display: flex;
+     flex-direction: column !important;
+     justify-content: center;
+     align-items: center;
+}
+
+#tablaUsuarios tbody tr td {
+    width: 247px;
+    font-weight: 500;
+    border: 0.0625rem solid #ccc;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+#tablaUsuarios thead tr th  {
+    width: 240px;
+    background-color: rgb(214, 139, 168);
+    color: rgb(244, 243, 240);
+    font-weight: bold;
+    text-align: left;
+    padding: 0.8rem;
+}
+
+
+#tablaUsuarios tbody tr {
+     display: flex;
+     flex-direction: row;
+
+}
+
+label, input {
+    margin: 0.4rem 0rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
